@@ -3,7 +3,8 @@ body {
 }
 
 #members {
-  
+  width: 100px;
+  height: 100px;
 }
 
 h1 {
