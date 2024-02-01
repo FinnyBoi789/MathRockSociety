@@ -1,3 +1,43 @@
 body {
   background-color: #00e6e6;
 }
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px;
+}
+
+h2 {
+    color: white;
+    text-shadow: 2px 2px;
+}
+
+h3 {
+    color: white;
+    text-shadow: 2px 2px;
+}
+
+h4 {
+    color: white;
+    text-shadow: 2px 2px;
+}
+
+h5 {
+    color: white;
+    text-shadow: 2px 2px;
+}
+
+h6 {
+    color: white;
+    text-shadow: 2px 2px;
+}
+
+p {
+    color: white;
+    text-shadow: 2px 2px;
+}
+
+li {
+    color: white;
+    text-shadow: 2px 2px;
+}
