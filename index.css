@@ -3,42 +3,50 @@ body {
 }
 
 h1 {
+    font-family: arial;
     text-align: center;
     color: white;
     text-shadow: 2px 2px red;
 }
 
 h2 {
+    font-family: arial;
     text-align: center;
     color: white;
     text-shadow: 2px 2px gray;
 }
 
 h3 {
+    font-family: arial;
     text-align: center;
     color: white;
     text-shadow: 2px 2px gray;
 }
 
 h4 {
+    font-family: arial;
     text-align: center;
     color: white;
     text-shadow: 2px 2px gray;
 }
 
 h5 {
+    font-family: arial;
     text-align: center;
     color: white;
     text-shadow: 2px 2px gray;
 }
 
 h6 {
+    font-family: arial;
     text-align: center;
     color: white;
     text-shadow: 2px 2px gray;
 }
 
 p {
+    text-size: 32;
+    font-family: arial;
     padding-left: 300px;
     padding-right: 300px;
     color: white;
@@ -46,6 +54,7 @@ p {
 }
 
 ul li {
+    font-family: arial;
     text-align: center;
     color: white;
     text-shadow: 2px 2px gray;
