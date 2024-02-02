@@ -2,11 +2,10 @@ body {
   background-color: #00e6e6;
 }
 
-#members {
-    width: 100px;
-    height: 100px;
-    margin-left: 300px;
-    margin-right: 300px;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
