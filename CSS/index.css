@@ -60,20 +60,28 @@ p {
 }
 
 ul {
-    font-family: Arial;
-    color: white;
-    text-shadow: 2px 2px 5px gray;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  text-shadow: 2px 3px 5px gray;
 }
 
 li {
-  display: inline;
+  float: left;
 }
 
-a {
+li a {
   display: block;
-  padding: 8px;
-  background-color: #dddddd;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }
