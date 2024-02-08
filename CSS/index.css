@@ -86,11 +86,11 @@ iframe {
   margin-right: 50px;
 }
 
-div {
+.mainText {
   background-color: #5B9279;
   border-radius: 30px;
 }
 
-#mainText {
+.textMargin {
   margin: 30px 30px 30px 30px;
 }
