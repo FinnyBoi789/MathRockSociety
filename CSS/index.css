@@ -90,3 +90,7 @@ div {
   background-color: #5B9279;
   border-radius: 30px;
 }
+
+#mainText {
+  margin: 30px 30px 30px 30px;
+}
