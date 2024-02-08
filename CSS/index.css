@@ -45,6 +45,11 @@ h6 {
     text-shadow: 2px 2px 5px gray;
 }
 
+@keyframes p {
+  0%   {font-size: 50px; opacity: 0;}
+  100%   {font-size: 50px; opacity: 1;}
+}
+
 p {
     font-family: Arial;
     color: white;
