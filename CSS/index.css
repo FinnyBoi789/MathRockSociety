@@ -65,8 +65,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  font-family: Arial;
-  text-shadow: 2px 3px 5px gray;
 }
 
 li {
@@ -81,7 +79,6 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
 }
