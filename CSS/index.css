@@ -11,50 +11,42 @@ img {
 
 h1 {
     font-family: Arial;
-    text-align: center;
     color: white;
     text-shadow: 2px 2px 5px #5B9279;
 }
 
 h2 {
     font-family: Arial;
-    text-align: center;
     color: white;
     text-shadow: 2px 2px 5px gray;
 }
 
 h3 {
     font-family: Arial;
-    text-align: center;
     color: white;
     text-shadow: 2px 2px 5px gray;
 }
 
 h4 {
     font-family: Arial;
-    text-align: center;
     color: white;
     text-shadow: 2px 2px 5px gray;
 }
 
 h5 {
     font-family: Arial;
-    text-align: center;
     color: white;
     text-shadow: 2px 2px 5px gray;
 }
 
 h6 {
     font-family: Arial;
-    text-align: center;
     color: white;
     text-shadow: 2px 2px 5px gray;
 }
 
 p {
     font-family: Arial;
-    padding-left: 300px;
-    padding-right: 300px;
     color: white;
     text-shadow: 2px 2px 5px gray;
 }
