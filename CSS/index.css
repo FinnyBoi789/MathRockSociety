@@ -54,7 +54,6 @@ p {
     font-family: Arial;
     color: white;
     text-shadow: 2px 2px 5px gray;
-    margin-right: 50px;
 }
 
 ul {
@@ -83,4 +82,5 @@ li a:hover {
 
 iframe {
   float: right;
+  margin-left: 50px;
 }
