@@ -1,5 +1,5 @@
 body {
-  background-color: #00e6e6;
+  background-color: #8FCB9B;
 }
 
 img {
@@ -13,7 +13,7 @@ h1 {
     font-family: Arial;
     text-align: center;
     color: white;
-    text-shadow: 2px 2px 5px #9966ff;
+    text-shadow: 2px 2px 5px #5B9279;
 }
 
 h2 {
@@ -64,7 +64,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #9966ff;
+  background-color: #5B9279;
 }
 
 li {
@@ -80,5 +80,5 @@ li a {
 }
 
 li a:hover {
-  background-color: #9900ff;
+  background-color: #12130F;
 }
