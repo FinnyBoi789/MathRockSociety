@@ -91,6 +91,15 @@ iframe {
   border-radius: 30px;
 }
 
+.textMargin h3 {
+  margin-top: 30px;
+}
+
+.textMargin p {
+  margin-bottom: 30px;
+}
+
 .textMargin {
-  margin: 30px 30px 30px 30px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
