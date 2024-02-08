@@ -16,7 +16,7 @@
         <main>
 
             <ul>
-                <li><a href="index.html">Home Page</a></li>
+                <li><a class="active" href="index.html">Home Page</a></li>
                 <li><a href="img-gallery.html">Image Gallery</a></li>
                 <li><a href="event-calendar.html">Event Calendar</a></li>
                 <li><a href="current-members.html">Current Members</a></li>
@@ -24,8 +24,21 @@
             </ul>
 
             <div>
-                <h3>Welcome to the math rock society!</h3>
-                <p>This is the place to be if you are into this nerdy ass music genre. We will discuss our favourite artists and share new music, have jam sessions and even go out to watch gigs!</p>
+                <form>
+                    <fieldset>
+                        <legend>Contact us using this form.</legend>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" value=""/> </br>
+
+                        <label for="email">Email Address:</label>
+                        <input type="text" name="email" value=""/> </br>
+
+                        <label for="message">Message:</label>
+                        <textarea type="text" name="email" cols="45" rows="5"></textarea> </br>
+
+                        <input type="submit" value="Submit"/>
+                    </fieldset>
+                </form>
             </div>
         </main>
 
