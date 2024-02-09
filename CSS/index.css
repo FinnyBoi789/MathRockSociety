@@ -57,6 +57,8 @@ p {
 }
 
 ul {
+  font-family: Arial;
+  text-shadow: 2px 2px 5px gray;
   list-style-type: none;
   margin: 0;
   padding: 0;
