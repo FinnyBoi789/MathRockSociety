@@ -15,42 +15,7 @@ h1 {
     text-shadow: 2px 2px 5px #5B9279;
 }
 
-h2 {
-    font-family: Arial;
-    color: white;
-    text-shadow: 2px 2px 5px gray;
-}
-
-h3 {
-    font-family: Arial;
-    color: white;
-    text-shadow: 2px 2px 5px gray;
-}
-
-h4 {
-    font-family: Arial;
-    color: white;
-    text-shadow: 2px 2px 5px gray;
-}
-
-h5 {
-    font-family: Arial;
-    color: white;
-    text-shadow: 2px 2px 5px gray;
-}
-
-h6 {
-    font-family: Arial;
-    color: white;
-    text-shadow: 2px 2px 5px gray;
-}
-
-@keyframes p {
-  0%   {font-size: 50px; opacity: 0;}
-  100%   {font-size: 50px; opacity: 1;}
-}
-
-p {
+h2, h3, h4, h5, h6, p {
     font-family: Arial;
     color: white;
     text-shadow: 2px 2px 5px gray;
