@@ -51,6 +51,28 @@ li a:active {
   background-color: #9EB3C2;
 }
 
+table {
+  font-family: Arial;
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border: 2px solid #F0F0F0;
+}
+
+Table tr:nth-child(even) {
+  background-color: #F2F2F2;
+}
+
+Table tr:hover {
+  background-color: #1C7293; 
+}
+
+Table th {
+  background-color: #1C7293;
+  color: white;
+}
+
 iframe {
   float: right;
   margin-left: 30px;
