@@ -1,3 +1,9 @@
+header {
+  padding: 50px;
+  border: 50px;
+  margin: 50px;
+}
+
 body {
   background-color: #1C7293;
 }
@@ -7,27 +13,18 @@ img {
   margin-left: auto green;
   margin-right: auto green;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border: 30px;
-  border-color: red;
-  padding: 30px yellow;
 }
 
 h1 {
     font-family: Arial;
     color: white;
     text-shadow: 2px 2px 5px #5B9279;
-    border: 30px;
-    border-color: red;
-    padding: 30px yellow;
 }
 
 h2, h3, h4, h5, h6, p {
     font-family: Arial;
     color: white;
     text-shadow: 2px 2px 5px gray;
-    border: 30px;
-    border-color: red;
-    padding: 30px yellow;
 }
 
 ul {
