@@ -96,7 +96,7 @@ iframe {
   margin-right: 30px;
 } 
 
-div.scroll-container {
+.scroll-container {
   background-color: #1B3B6F;
   border-radius: 30px;
   overflow: auto;
@@ -104,6 +104,6 @@ div.scroll-container {
   padding: 10px;
 }
 
-div.scroll-container img {
+.scroll-container img {
   padding: 10px;
 }
