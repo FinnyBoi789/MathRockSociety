@@ -97,7 +97,8 @@ iframe {
 } 
 
 div.scroll-container {
-  background-color: #333;
+  background-color: #1B3B6F;
+  border-radius: 30px;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
