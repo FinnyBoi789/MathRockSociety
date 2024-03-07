@@ -108,3 +108,15 @@ div.scroll-container img {
   padding: 10px;
   display: inline;
 }
+
+.gallery-img {
+  width: 100%;
+}
+
+#img-gallery {
+  padding-top: 10px;
+}
+
+#img-gallery .row {
+  margin-bottom: 10px;
+}
