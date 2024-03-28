@@ -29,6 +29,7 @@
                         }
 
                     </script>
+
                 </fieldset>
             </form>
         </header>
@@ -49,18 +50,60 @@
                 <br></br>
                 <div>
                     <h2 class="textMargin">Album Of The Month!</h2>
-                    <p  class="textMargin">As part of our weekly listening parties we have an album of the month competition where we pull an album out of a hat and whichever is chosen, </p>
+                    <p  class="textMargin">As part of our weekly listening parties we have an album of the month competition where we take a bunch of albums from our form below and as a group we will decide which album wins through process of elimination. Whichever album wins will be played during our weekly listening party as well as displayed on the aptly named webpage!</p>
                     <h3 class="textMargin" style="text-align:center;">This month's album has been chosen!</h3>
-                    <img src="album.jpg" style="box-align:center;">
+                    <img id="image" src="Images/My_Bloody_Valentine_-_Loveless.png" style="box-align:center;display:none;">   
+                    
+                    <button type="button" style="text-align:center;" onclick="show()" id="btnID">
+                        Click here to find out what was picked!
+                    </button>
+
+
+
+                    <div id="hidden" style="display:none;">
+                        <h4 style="text-align:center;">"Loveless" by</h4>
+                        <h4 style="text-align:center;">My Bloody Valentine</h4>
+                        <br></br>
+                        <p style="text-align:center;margin-left:200px;margin-right:200px;" class="textMargin">While not a math rock album, it's genre is adjacent. My Bloody Valentine's groundbreaking album "Loveless" is an ethereal masterpiece that defies conventional categorization. Released in 1991, this iconic shoegaze record continues to captivate listeners with its swirling layers of distorted guitars, dreamy vocals, and hypnotic rhythms.</p>
+                        <br></br>
+                        <p style="text-align:center;margin-left:200px;margin-right:200px;" class="textMargin">From the opening track "Only Shallow" to the haunting closer "Soon," "Loveless" takes listeners on a transcendent sonic journey. Kevin Shields' innovative production techniques create a lush sonic landscape that envelops the listener in a wall of sound, while Bilinda Butcher's ethereal vocals add a delicate balance to the album's dense textures.</p>
+                        <br></br>
+                        <p style="text-align:center;margin-left:200px;margin-right:200px;" class="textMargin">Each song on "Loveless" is a sonic tapestry, weaving together elements of noise, melody, and atmosphere to create a truly immersive listening experience. Tracks like "To Here Knows When" and "Sometimes" showcase the band's mastery of texture and dynamics, with shimmering guitars cascading over pulsating rhythms.</p>
+                        <br></br>
+                        <p style="text-align:center;margin-left:200px;margin-right:200px;" class="textMargin">Despite its initial commercial struggles, "Loveless" has since become recognized as one of the most influential albums of its time, inspiring countless bands across genres. Its timeless appeal lies in its ability to transport listeners to a dreamlike state, where the boundaries between noise and melody blur into a mesmerizing haze. "Loveless" is not just an album; it's a sonic journey that continues to resonate with listeners decades after its release.</p>
+                        <br></br>
+                        <p style="text-align:center;margin-left:200px;margin-right:200px;" class="textMargin">- George P. Thompson, Math Rock Society Member</p>
+                        <br></br>
+                    <script>
+                        function show() {
+                            document.getElementById('image')
+                                .style.display = "block";
+                            document.getElementById('hidden')
+                                .style.display = "block";
+                            document.getElementById('btnID')
+                                .style.display = "none";
+                        }
+                    </script>
+                    </div>
                 </div>
             </div>
             <div>
-                <p class="textMargin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <br></br>
-            </div>
 
+            </div>
             <div class="mainText">
-                <br></br>
+                <div id="left_col">
+                    <form id="form_outcome" class="textMargin">
+                        <fieldset>
+                            <br></br>
+                            <h3>Enter your album of choice for this month here:</h3>
+                            <input placeholder="Album Name:" type="text" name="email" value=""/> </br>
+                            <input placeholder="Artist Name:" type="text" name="email" value=""/> </br>
+    
+                            <button type="button" onclick='document.getElementById("form_outcome").innerHTML="Form has been sent successfully!"'>Submit</button>
+                            <br></br>
+                        </fieldset>
+                    </form>
+                </div>
             </div>
         </main>
 
