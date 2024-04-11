@@ -9,15 +9,27 @@
 
     <body>
         <header>
-            <h1>The Math Rock Society</h1>
+            <img src="Images/logo.png" style="width:143.22px;height:82px;box-shadow:none;">
+            <form style="float:right;display:inline;">
+                <fieldset>
+                    <input placeholder="Email Address:" type="text" name="email" value=""/> </br>
+                    <input placeholder="Password:" type="text" name="password" value=""/> </br>
+                    <button type="button" onclick="login()">Login</button>
+                    <script>
+                        var counter = 2;
+                        function login(){
+                            if(counter % 2 == 0){
+                                alert('You have been logged in!');
+                            } else {
+                                alert('You have been logged out!')
+                            } counter += 1;
+                        }
+                    </script>
+                </fieldset>
+            </form>
         </header>
             
         <nav>
-
-        </nav>
-
-        <main>
-
             <ul>
                 <li><a href="index.html">Home Page</a></li>
                 <li><a href="album-of-the-month.html">Album Of The Month</a></li>
@@ -26,9 +38,13 @@
                 <li><a href="current-members.html">Current Members</a></li>
                 <li><a href="contact-us.html">Contact Us</a></li>
             </ul>
+        </nav>
+
+        <main>
+
 
             <div>
-                <table>
+                <table style="width:100%;height:100%;">
                     <tr>
                         <td></td><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th><th>Sunday</th>
                     </tr>
@@ -39,7 +55,7 @@
                         <th>W2</th><td></td><td></td><td>Mystery band listening party <br/> in person @ room N533</td><td>Jam session <br/> in person @ room N533</td><td></td><td></td><td></td>
                     </tr>
                     <tr>
-                        <th>W3</th><td></td><td></td><td>Mystery band listening party <br/> in person @ room N533</td><td></td><td></td><td></td><td></td>
+                        <th>W3</th><td></td><td></td><td>Mystery band listening party <br/> in person @ room N533</td><td></td><td>Tricot concert <br/> @ Barrowlands Ballroom, Glasgow</td><td></td><td></td>
                     </tr>
                     <tr>
                         <th>W4</th><td></td><td></td><td>Mystery band listening party <br/> in person @ room N533</td><td>Jam session <br/> in person @ room N533</td><td></td><td></td><td></td>
@@ -71,7 +87,7 @@
         </aside>
 
         <footer>
-
+            <p>Copyright Finn Lyon-Crawford 2024</p>
         </footer>
     </body>
 </html>
