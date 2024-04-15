@@ -2,38 +2,27 @@
 
 <html>
     <head>
+        <!-- Title and bootstrap links -->
         <title>The Math Rock Society</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <!-- Link to stylesheet -->
         <link rel="stylesheet" href="CSS/style.css">
     </head>
 
     <body>
         <header>
-            <img src="Images/logo.png" style="width:143.22px;height:82px;box-shadow:none;">
-            <form style="float:right;display:inline;">
-                <fieldset>
-                    <input placeholder="Email Address:" type="text" name="email" value=""/> </br>
-                    <input placeholder="Password:" type="text" name="password" value=""/> </br>
-                    <button type="button" onclick="login()">Login</button>
-                    <script>
-                        var counter = 2;
-                        function login(){
-                            if(counter % 2 == 0){
-                                alert('You have been logged in!');
-                            } else {
-                                alert('You have been logged out!')
-                            } counter += 1;
-                        }
-                    </script>
-                </fieldset>
-            </form>
+            <!-- Website Logo -->
+            <img src="Images/logo.png" alt="Logo for the Math Rock Society website." style="width:143.22px;height:82px;box-shadow:none;">
         </header>
             
+        <!-- Navigation bar --> 
         <nav>
             <ul>
                 <li><a href="index.html">Home Page</a></li>
                 <li><a href="album-of-the-month.html">Album Of The Month</a></li>
+                <li><a href="tutorials.html">Tutorials</a></li>
                 <li><a href="img-gallery.html">Image Gallery</a></li>
                 <li><a href="event-calendar.html">Event Calendar</a></li>
                 <li><a href="current-members.html">Current Members</a></li>
@@ -42,30 +31,39 @@
         </nav>
 
         <main>
+            
+            <!-- Contact us form -->
+            <div class="mainText">
+                <div id="left_col">
+                    <form id="form_outcome">
+                        <fieldset id="contact-us">
+                            <br>
+                            <legend class="textMargin">Contact us using this form, or follow us on social media.</legend>
+                            <label class="textMargin" for="name">Name:</label>
+                            <input type="text" name="name" value=""/> </br>
 
-            <div id="left_col">
-                <form id="form_outcome">
-                    <fieldset>
-                        <legend>Contact us using this form.</legend>
-                        <label for="name">Name:</label>
-                        <input type="text" name="name" value=""/> </br>
+                            <label  class="textMargin" for="email">Email Address:</label>
+                            <input  class="textMargin" type="text" name="email" value=""/> </br>
 
-                        <label for="email">Email Address:</label>
-                        <input type="text" name="email" value=""/> </br>
+                            <input  class="textMargin" type="radio" id="member" name="memberOrNot" value="Member">
+                            <label  class="textMargin" for="member">Member</label><br>
+                            
+                            <input  class="textMargin" type="radio" id="nonmember" name="memberOrNot" value="Non-Member">
+                            <label  class="textMargin" for="nonmember">Non-Member</label><br>
 
-                        <input type="radio" id="member" name="memberOrNot" value="Member">
-                        <label for="member">Member</label><br>
-                        
-                        <input type="radio" id="nonmember" name="memberOrNot" value="Non-Member">
-                        <label for="nonmember">Non-Member</label><br>
+                            <label  class="textMargin" for="message">Message:</label><br>
+                            <textarea  class="textMargin" type="text" name="email" cols="80" rows="5"></textarea> </br>
 
-                        <label for="message">Message:</label>
-                        <textarea type="text" name="email" cols="45" rows="5"></textarea> </br>
-
-                        <button type="button" onclick='document.getElementById("form_outcome").innerHTML="Form has been sent successfully!"'>Submit</button>
-
-                    </fieldset>
-                </form>
+                            <button  class="textMargin" type="button" onclick='document.getElementById("form_outcome").innerHTML="Form has been sent successfully!"'>Submit</button>
+                            <br></br>
+                        </fieldset>
+                    </form>
+                </div>
+                <br>
+                <!-- Twitter embed -->
+                <a class="twitter-timeline" data-lang="en" data-width="800" data-height="600" data-theme="dark" href="https://twitter.com/psychotic85842?ref_src=twsrc%5Etfw">Tweets by psychotic85842</a> 
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <br>
             </div>
         </main>
 
