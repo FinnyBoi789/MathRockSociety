@@ -1,0 +1,114 @@
+
+
+<html>
+    <head>
+        <!-- Title and bootstrap links -->
+        <title>The Math Rock Society</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <!-- Link to stylesheet -->
+        <link rel="stylesheet" href="CSS/style.css">
+        
+    </head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <body>
+        <header>
+            <!-- Website Logo -->
+            <img src="Images/logo.png" alt="Logo for the Math Rock Society website." style="width:143.22px;height:82px;box-shadow:none;">
+        </header>
+            
+        <!-- Navigation bar --> 
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="album-of-the-month.html">Album Of The Month</a></li>
+                <li><a class="active" href="tutorials.html">Tutorials</a></li>
+                <li><a href="img-gallery.html">Image Gallery</a></li>
+                <li><a href="event-calendar.html">Event Calendar</a></li>
+                <li><a href="current-members.html">Current Members</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <main> 
+            <!-- Main text section -->
+            <div class="mainText">
+                <br></br>
+                <div>
+                    <h3 class="textMargin">Tutorials</h3>
+                    <h4 class="textMargin">Here you will find various tabs and youtube tutorials for any songs suggested by our members!</p>
+                </div>
+
+                <!-- Columns for tutorial links/youtube video embeds -->
+                <div class="mainText" style="background-color:#9eb3c2;width:32%;float:left;">
+                    <br>
+                    <h4 class="textMargin">toe - Path (Tab)</h4>
+                    <iframe width="500" height="290" src="https://www.youtube.com/embed/rugSYkQm9fo?si=iETKA2DmUcZo2YZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <a class="textMargin" href="https://tabs.ultimate-guitar.com/tab/toe/path-tabs-1472104">Ultimate Guitar tab for "Path" by toe</a>
+                    <br><br>
+                </div>
+
+                <div class="mainText" style="background-color:#9eb3c2;width:32%;float:left;margin-left:20px;">
+                    <br>
+                    <h4 class="textMargin">Tricot - POOL (Tab)</h4>
+                    <iframe width="500" height="290" src="https://www.youtube.com/embed/SyHY3x0XerI?si=lbenPybyQ7pol8cZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <a class="textMargin" href="https://tabs.ultimate-guitar.com/tab/tricot/pool-tabs-1864700">Ultimate Guitar tab for "POOL" by Tricot</a>
+                    <br><br>
+                </div>
+
+                <div class="mainText" style="background-color:#9eb3c2;width:32%;float:left;margin-left:20px;">
+                    <br>
+                    <h4 class="textMargin">Chinese Football - Electronic Girl (Tab)</h4>
+                    <iframe width="500" height="290" src="https://www.youtube.com/embed/Fz5wTHoYpkk?si=gx1hLu5CSW6sx3du" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <br>
+                    <a class="textMargin" href="https://tabs.ultimate-guitar.com/tab/4331771">Ultimate Guitar tab for "Electronic Girl" by Chinese Football</a>
+                    <br><br>
+                </div>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            </div>
+
+
+        </main>
+
+        <aside>
+            <!-- Tutorial submission form -->
+            <div class="mainText">
+                <br>
+                <div id="left_col">
+                    <form name="tutorial" id="form_outcome">
+                        <fieldset id="tutorial">
+                            <p class="textMargin">Want to recommend a tutorial? Tell us below!</p>
+                            <input class="textMargin" placeholder="Artist Name:" type="text" name="artist_name" value=""/> </br>
+
+                            <input class="textMargin" placeholder="Song Title:" type="text" name="song_title" value=""/> </br>
+    
+                            <button class="textMargin" type="button" onclick="submit_tutorial()">Submit Tutorial</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <br>
+            </div>
+            <!-- Script for tutorial submission -->
+            <script>
+                function submit_tutorial() {
+                    var artistName = document.forms["tutorial"]["artist_name"].value;
+                    var songName = document.forms["tutorial"]["song_title"].value;
+                    if (artistName == "") {
+                        alert("Must have an artist name!");
+                    } else {
+                        if (songName == "") {
+                            alert("Must have an song title!");
+                        } else {
+                            alert("Tutorial submitted! The society will contact you soon!");
+                        }
+                    }
+                }
+            </script>
+        </aside>
+
+        <footer>
+            <p>Copyright Finn Lyon-Crawford 2024</p>
+        </footer>
+    </body>
+</html>
